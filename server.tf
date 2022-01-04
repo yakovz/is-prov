@@ -8,7 +8,7 @@ data "intersight_compute_rack_unit" "myname" {
 
 resource "intersight_server_profile" "mysp" {
    ## action = "Deploy"
-    name = "kukunew"
+    name = "kuku"
 
 tags {
   key = "Owner"
