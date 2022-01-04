@@ -7,13 +7,8 @@ data "intersight_compute_rack_unit" "myname" {
 
 
 resource "intersight_server_profile" "mysp" {
-<<<<<<< HEAD
    ## action = "Deploy"
-    name = "kuku11"
-=======
-   action = "Deploy"
-    name = "kuku"
->>>>>>> 1776e6a12b3c50a1e010a1623e7bd7cf90d9bdf2
+    name = "kuku111"
 
 tags {
   key = "Owner"
